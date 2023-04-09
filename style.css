@@ -4,13 +4,13 @@ body {
   }
   
 /* NAVBAR */
-.topnav {
+.navbar {
     background-color: #19376D;
     overflow: hidden;
     margin-bottom: 50px;
 }
   
-.topnav a {
+.navbar a {
     float: left;
     display: block;
     color: #f2f2f2;
