@@ -30,6 +30,7 @@ body {
     background-color: #f6f6f6;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
 }
   
 h1 {
@@ -54,6 +55,7 @@ h1 {
     border-radius: 4px;
     box-sizing: border-box;
     margin-bottom: 16px;
+    border: 2px solid #8a8a8a;
 }
   
 button {
@@ -95,4 +97,38 @@ button:hover {
   
 .obesity {
     color: #f44336;
+}
+
+.flex-container {
+    display: flex;
+}
+  
+.flex-container > div {
+    margin-left: 10px;
+    padding: 0px 20px 20px 20px;
+    color: rgb(74, 74, 74);
+}
+
+h2 {
+    line-height: 50%;
+}
+
+#bmi {
+    text-align: justify;
+    line-height: 175%;
+}
+
+#underweight {
+    color: #f44336;
+    line-height: 100%;
+}
+
+#overweight {
+    color: #ff9800;
+    line-height: 100%;
+}
+  
+#obese {
+    color: #f44336;
+    line-height: 100%;
 }
